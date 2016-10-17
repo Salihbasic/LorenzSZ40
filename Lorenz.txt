@@ -1,0 +1,9 @@
+The Lorenz SZ40, SZ42, SZ42A and SZ42B were German rotor stream cipher machines used by the German Army during World War II. They were developed by C. Lorenz AG in Berlin. The model name SZ was derived from Schlüssel-Zusatz, meaning cipher attachment. The instruments implemented a Vernam stream cipher.
+
+British cryptographers, who referred to encrypted German teleprinter traffic as Fish, dubbed the machine and its traffic Tunny and diagnosed its logical structure three years before they saw a machine. The SZ machines were in-line attachments to standard teleprinters. An experimental link using SZ40 machines was started in June 1941. The enhanced SZ42 machines were brought into substantial use from mid-1942 onwards for high-level communications between the German High Command in Wünsdorf close to Berlin, and Army Commands throughout occupied Europe. The more advanced SZ42A came into routine use in February 1943 and the SZ42B in June 1944. 
+
+The deciphered Lorenz messages made one of the most significant contributions to British Ultra military intelligence and to Allied victory in Europe, due to the high-level strategic nature of the information that was gained from Lorenz decrypts.
+
+Lorenz cipher machines were built in small numbers; today only a handful survive in museums. John Whetter and John Tether, volunteers with The National Museum of Computing, bought a Lorenz teleprinter on eBay for £9.99 that was retrieved from a garden shed in Southend-on-Sea. It was found to be the WWII military version, was refurbished and in May 2016 installed next to the SZ42 machine in the museum's "Tunny" gallery.
+
+~Wikipedia
