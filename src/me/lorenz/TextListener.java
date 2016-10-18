@@ -63,6 +63,29 @@ public class TextListener {
 	}
 	
 	/**
+	 * This method turns the int array into a String
+	 * 
+	 * @param intArray - int array to be turned into string
+	 * @return String representation of int array
+	 */
+	private String intToString(int[] intArray) {
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < intArray.length; i++) {
+			sb.append(intArray[i]);
+		}
+		String str = sb.toString();
+		return str;
+	}
+	
+	/**
+	 * Appends the Key value into keys JTextArea
+	 */
+	public void printKey() {
+		gui.getKeysArea().append(baudot.getLetter(intToString(getKey(psiPins, chiPins))));
+	}
+	
+	/**
 	 * Gets the key necessary for message encryption
 	 * @param psiPins - All five psi pins
 	 * @param chiPins - All five chi pins
