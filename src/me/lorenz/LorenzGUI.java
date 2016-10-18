@@ -95,6 +95,13 @@ public class LorenzGUI {
 			springLayout.putConstraint(SpringLayout.SOUTH, pins, -21, SpringLayout.SOUTH, frame.getContentPane());
 			springLayout.putConstraint(SpringLayout.EAST, pins, 0, SpringLayout.EAST, lblMu1C);
 			frame.getContentPane().add(pins);
+			
+			//Puts constraints for and adds pins
+			springLayout.putConstraint(SpringLayout.NORTH, keys, 45, SpringLayout.SOUTH, cipherText);
+			springLayout.putConstraint(SpringLayout.WEST, keys, 81, SpringLayout.EAST, pins);
+			springLayout.putConstraint(SpringLayout.SOUTH, keys, -1, SpringLayout.NORTH, btnAbout);
+			springLayout.putConstraint(SpringLayout.EAST, keys, 0, SpringLayout.EAST, btnAbout);
+			frame.getContentPane().add(keys);
 		}
 		
 		/**
@@ -280,6 +287,11 @@ public class LorenzGUI {
 			springLayout.putConstraint(SpringLayout.WEST, lblPsi5C, 0, SpringLayout.WEST, lblPsi5);
 			frame.getContentPane().add(lblPsi5C);
 			
+			//Puts constraints for and adds lblKey
+			JLabel lblKey = new JLabel("Key");
+			springLayout.putConstraint(SpringLayout.NORTH, lblKey, 0, SpringLayout.NORTH, btnRandom);
+			springLayout.putConstraint(SpringLayout.EAST, lblKey, 0, SpringLayout.EAST, btnAbout);
+			frame.getContentPane().add(lblKey);
 		}
 		
 		/**
