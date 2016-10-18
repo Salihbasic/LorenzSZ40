@@ -51,7 +51,7 @@ public class Baudot {
 		ita2.put("00000", "null");
 		ita2.put("01000", "\r");
 		ita2.put("00010", "\r");
-		ita2.put("11011", "FIGS");
+		ita2.put("11011", "");
 		ita2.put("11111", "");
 		
 		ascii.put("A", "00011");
