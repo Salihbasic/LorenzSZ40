@@ -87,6 +87,33 @@ public class Baudot {
 		ascii.put("FIGS", "11011");
 		ascii.put("", "11111");
 		
+		ascii.put("a", "00011");
+		ascii.put("b", "11001");
+		ascii.put("c", "01110");
+		ascii.put("d", "01001");
+		ascii.put("e", "00001");
+		ascii.put("f", "01101");
+		ascii.put("g", "11010");
+		ascii.put("h", "10100");
+		ascii.put("i", "00110");
+		ascii.put("j", "01011");
+		ascii.put("k", "01111");
+		ascii.put("l", "10010");
+		ascii.put("m", "11100");
+		ascii.put("n", "01100");
+		ascii.put("o", "11000");
+		ascii.put("p", "10110");
+		ascii.put("q", "10111");
+		ascii.put("r", "01010");
+		ascii.put("s", "00101");
+		ascii.put("t", "10000");
+		ascii.put("u", "00111");
+		ascii.put("v", "11110");
+		ascii.put("w", "10011");
+		ascii.put("x", "11101");
+		ascii.put("y", "10101");
+		ascii.put("z", "10001");
+		
 		numbers.put("1", "1");
 		numbers.put("2", "2");
 		numbers.put("3", "3");
