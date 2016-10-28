@@ -182,9 +182,11 @@ public class TextListener {
 	 */
 	private void removeLastLetter() {
 		Document doc = gui.getCipherText().getDocument();
+		Document keyDoc = gui.getKeysArea().getDocument();
 		if (gui.getPlainText().getText().length() > 1) {
 			try {
 				doc.remove(gui.getCipherText().getText().length() - 1, 1);
+				keyDoc.remove(gui.getKeysArea().getText().length() - 1, 1);
 			} catch (BadLocationException blException) {
 				JOptionPane.showMessageDialog(null, "I am sorry 10101 11001 11111 11100 11111" + blException);
 			}
@@ -192,6 +194,7 @@ public class TextListener {
 		
 		if (gui.getPlainText().getText().length() == 0) {
 			gui.getCipherText().setText(null);
+			gui.getKeyArea().setText(null);
 		}
 	}
 	
