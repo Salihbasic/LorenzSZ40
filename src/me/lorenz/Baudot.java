@@ -161,10 +161,8 @@ public class Baudot {
 	 */
 	public String getNumber(String number) {
 		int num = Integer.parseInt(number);
-		if (num <= 9) {
-			return numbers.get(number);
-		}
-		return null;
+		
+		return (num <= 9) ? numbers.get(number) : null;
 	}
 	
 	/**
