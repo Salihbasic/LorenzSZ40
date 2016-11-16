@@ -397,5 +397,7 @@ public class LorenzGUI {
 			return plainText;
 		}
 		
-	
+		public JButton getBtnReset() {
+			return btnReset;
+		}	
 }
