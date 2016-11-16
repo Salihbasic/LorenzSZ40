@@ -14,7 +14,38 @@ public class ButtonListener {
 		this.gui = gui;
 		gui.getBtnRandom().addActionListener(btnRandomLis);
 		gui.getBtnAbout().addActionListener(btnAboutLis);
+		gui.getBtnReset().addActionListener(btnResetLis);
 	}
+	
+	ActionListener btnResetLis = new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			
+			if (e.getActionCommand().equalsIgnoreCase("reset")) {
+				gui.getKeysArea().setText(null);
+				gui.getPins().setText(null);
+				gui.getPlainText().setText(null);
+				gui.getCipherText().setText(null);
+				
+				gui.getLblChi1C().setText("0");
+				gui.getLblChi2C().setText("0");
+				gui.getLblChi3C().setText("0");
+				gui.getLblChi4C().setText("0");
+				gui.getLblChi5C().setText("0");
+
+				gui.getLblPsi1C().setText("0");
+				gui.getLblPsi2C().setText("0");
+				gui.getLblPsi3C().setText("0");
+				gui.getLblPsi4C().setText("0");
+				gui.getLblPsi5C().setText("0");
+				
+				gui.getLblMu1C().setText("0");
+				gui.getLblMu2C().setText("0");
+			}
+			
+		}
+	};
 
 	ActionListener btnRandomLis = new ActionListener() {
 		@Override
