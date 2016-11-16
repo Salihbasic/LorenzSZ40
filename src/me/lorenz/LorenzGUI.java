@@ -16,6 +16,7 @@ public class LorenzGUI {
 		private JScrollBar scrollBar = new JScrollBar();
 		private JButton btnAbout = new JButton("About");
 		private JTextArea pins = new JTextArea();
+		private JButton btnReset = new JButton("Reset");
 		private JButton btnRandom = new JButton("Random");
 		private JTextArea cipherText = new JTextArea();
 		private JLabel lblChi5C = new JLabel("0");
@@ -119,6 +120,10 @@ public class LorenzGUI {
 			springLayout.putConstraint(SpringLayout.SOUTH, btnAbout, 0, SpringLayout.SOUTH, pins);
 			springLayout.putConstraint(SpringLayout.EAST, btnAbout, 0, SpringLayout.EAST, lblChi5);
 			frame.getContentPane().add(btnAbout);
+			
+			springLayout.putConstraint(SpringLayout.WEST, btnReset, 6, SpringLayout.EAST, pins);
+			springLayout.putConstraint(SpringLayout.SOUTH, btnReset, 0, SpringLayout.SOUTH, pins);
+			frame.getContentPane().add(btnReset);
 		}
 		
 		/**
